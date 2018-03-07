@@ -2,8 +2,9 @@
 var elements = document.querySelectorAll('.lazy-img');
 var gallery_images = document.querySelectorAll('[data-src]');
 var config = {
-  rootMargin: '0px 0px 50px 0px',
-  threshold: 0
+  // rootMargin: '0px 0px 50px 0px',
+  rootMargin: '0px',
+  threshold: 0.5
 };
 
 var loaded = 0;
@@ -32,6 +33,8 @@ if (!('IntersectionObserver' in window)) {
 
 function preloadImage(img) {
   var src = img.getAttribute('data-src');
-  if (!src) { return; }
+  if (!src) {
+    return;
+  }
   img.src = src;
 }

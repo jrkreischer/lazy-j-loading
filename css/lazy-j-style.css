@@ -5,22 +5,23 @@
 --------------------------------------------------------------*/
 .gallery {
 	margin-bottom: 1.5em;
-  display: -webkit-flex;
+  /* display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
   flex-direction: row;
   -wekbit-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-justify-content: space-between;
-  justify-content: space-between;
+  justify-content: space-between; */
   width: 100%;
 }
 
 .gallery-item {
-	display: inline-block;
+	/* display: inline-block; */
 	text-align: center;
 	vertical-align: top;
 	width: 100%;
+	float: left;
 }
 
 .gallery-columns-2 .gallery-item {
@@ -54,6 +55,22 @@
 
 .gallery-columns-9 .gallery-item {
 	max-width: 11.11%;
+}
+
+.gallery-item img {
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	animation: fadeIn 3s ease forwards;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 .gallery-caption {
