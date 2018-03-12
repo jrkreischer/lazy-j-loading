@@ -8,6 +8,16 @@
 	margin-bottom: 1.5em;
 }
 
+.gallery-item a {
+	transition: 0.3s ease;
+}
+
+.gallery-item a:hover img {
+	-webkit-filter: brightness(0.5);
+	filter: brightness(0.5);
+	/* transition: 0.3s ease; */
+}
+
 .gallery-item {
 	display: inline-block;
 	text-align: center;

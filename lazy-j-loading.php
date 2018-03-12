@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Lazy J Loading Galleries
+ * Plugin Name: Lazy-J Load WP Galleries
  * Plugin URI:
- * Description: Lazy loading for WordPress galleries.
+ * Description: Lazy loading for native WordPress galleries with masonry layout.
  * Version: 0.1.0
  * Author: John Kreischer
  * Author URI:

@@ -1,2 +1,2 @@
 # lazy-j-loading
-Lazy loading WordPress galleries plugin.
+Lazy loading for native WordPress galleries with masonry layout.
