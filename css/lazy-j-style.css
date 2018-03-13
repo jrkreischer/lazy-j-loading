@@ -75,6 +75,7 @@
 
 .gallery-item img {
 	width: 100%;
+	max-width: 100%;
 	height: auto;
 	opacity: 0;
 	/* animation: fadeIn 3s ease forwards; */
